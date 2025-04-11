@@ -188,9 +188,9 @@ static void MX_GPIO_Init(void);
 void lcd_display()
 {
 	Lcd_cursor(&lcd,0,1);
-	Lcd_string(&lcd,"vignesh.v\n");
+	Lcd_string(&lcd,"Manogaran S\n");
 	Lcd_cursor(&lcd,1,1);
-	Lcd_string(&lcd,"212223230241");
+	Lcd_string(&lcd,"212223240081");
 
 }
 int main(void)
